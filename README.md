@@ -8,7 +8,7 @@ http://www.dataguru.cn/article-10519-1.html
 Thanks for the research!
 
 TODO:
-- [ ] Train a word2vec for the data (Tang shi and Song ci), character level
+- [X] Train a word2vec for the data (Tang shi and Song ci), character level
 - [ ] RNN Language Model (Very Naive)
 - [ ] Chinese Poetry Generation with Recurrent Neural Networks
 - [ ] Chinese Song Iambics Generation with Neural Attention-based Model
