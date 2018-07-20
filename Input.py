@@ -22,10 +22,10 @@ class InputData:
         # First Run get words to 
         self.input_file_name = file_name
         self.get_words(vocab_size)
-        self.init_sample_table()
+        # self.init_sample_table()
         self.word_pair_catch = deque()
-        print('Word Count: %d' % len(self.word2id))
-        print('Sentence Length: %d' % (self.sentence_length))
+        print('Vocab size: %d' % len(self.word2id))
+        print('Corpus Length: %d' % (self.sentence_length))
 
 
 
